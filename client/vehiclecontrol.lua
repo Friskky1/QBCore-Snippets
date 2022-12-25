@@ -22,12 +22,12 @@ local vehicleClassDisableControl = {
 }
 	
 -- Main thread
-Citizen.CreateThread(function()
+CreateThread(function()
 	while true do
 	-- Loop forever and update every frame
 	Wait(0)	
 		-- Get player, vehicle and vehicle class
-		local player = GetPlayerPed(-1)
+		local player = PlayerPedId()
 		local vehicle = GetVehiclePedIsIn(player, false)
 		local vehicleClass = GetVehicleClass(vehicle)
 
