@@ -8,4 +8,4 @@ Drag and drop the vehiclecontrol script into any client side files. [qb-smallres
 
 ## regenhealth
 ##### This makes your player regen 1 hp over a 1 second interval
-Drag and drop the regenhealth script into any client side files. [qb-smallresources/client/vehiclecontrol.lua] (For Example)
+Drag and drop the regenhealth script into any client side files. [qb-smallresources/client/regenhealth.lua] (For Example)
